@@ -1,4 +1,7 @@
 import streamlit as st
+import pandas as pd
+
+footballers = pd.read_csv("C:\Users\trabucchie\Downloads\Listone_Fantapazz.csv")
 
 st.title("Test")
 st.button('Hit me')
