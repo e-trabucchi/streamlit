@@ -1,4 +1,5 @@
 import pandas as pd
 
-footballers = pd.read_csv("Listone_Fantapazz.csv")
+footballers = pd.read_csv("/workspaces/streamlit/Listone_Fantapazz.csv", sep=';')
 footballers.head()
+#footballers.info()
